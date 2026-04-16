@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: radial-gradient(circle at 30% 30%, #2a003f, #0b0014);
+  color: white;
+}
+
+/* INTRO */
+.intro {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.enter-btn {
+  padding: 15px 40px;
+  border-radius: 30px;
+  background: rgba(255,255,255,0.05);
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  background: linear-gradient(45deg, #ff4ecd, #ff007a);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  padding: 40px;
+}
+
+/* CARD */
+.card {
+  background: rgba(255,255,255,0.05);
+  border-radius: 20px;
+  padding: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #ff4ecd;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+/* MODAL */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: #1a002a;
+  padding: 30px;
+  border-radius: 20px;
+  max-width: 500px;
+}
+
+.modal-content img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.upload-label {
+  font-size: 0.8rem;
+  color: gray;
+}
