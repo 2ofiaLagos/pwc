@@ -1,14 +1,12 @@
 {
   "name": "academic-opportunities",
-  "homepage": "https://tu-usuario.github.io/nombre-de-tu-repo",
+  "homepage": "https://2ofialagos.github.io/pwc",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
-
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",

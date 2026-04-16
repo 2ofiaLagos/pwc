@@ -4,7 +4,7 @@ import Trivia from "./pages/Trivia";
 import Guia from "./pages/Guia";
 import Leyes from "./pages/Leyes";
 import Denuncia from "./pages/Denuncia";
-import Footer from "./components/Footer"; // 👈 Importa el Footer
+import Footer from "./components/Footer";
 
 const navStyle = {
   display: "flex",
@@ -21,7 +21,7 @@ const linkStyle = {
   textDecoration: "none"
 };
 
-// Estilo para que el footer siempre esté abajo
+
 const appStyle = {
   display: "flex",
   flexDirection: "column",
@@ -61,7 +61,7 @@ export default function App() {
             <Route path="/denuncia" element={<Denuncia />} />
           </Routes>
         </div>
-        <Footer /> {/* 👈 Agrega el Footer aquí */}
+        <Footer />
       </div>
     </BrowserRouter>
   );

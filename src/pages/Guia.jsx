@@ -31,13 +31,13 @@ export default function GuiaInteractiva() {
 
   return (
     <div style={container}>
-      {/* Barra de Progreso Superior */}
+     
       <div style={progressBarContainer}>
         <div style={{...progressFill, width: `${((paso + 1) / pasos.length) * 100}%`}}></div>
       </div>
 
       <div style={contentLayout}>
-        {/* Lado Izquierdo: Texto */}
+        
         <div style={textSide}>
           <span style={stepBadge}>Paso {paso + 1} de {pasos.length}</span>
           <h1 style={stepTitle}>{pasos[paso].titulo}</h1>
@@ -56,7 +56,6 @@ export default function GuiaInteractiva() {
           </div>
         </div>
 
-        {/* Lado Derecho: Imagen con estilo minimalista */}
         <div style={imageSide}>
           <img src={pasos[paso].imagen} alt="Guía" style={stepImage} />
         </div>

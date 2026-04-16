@@ -3,14 +3,14 @@ import React from "react";
 export default function Leyes() {
   return (
     <div style={container}>
-      {/* Sección Hero con Imagen y Título superpuesto */}
+      
       <div style={heroContainer}>
         <div style={heroContent}>
           <h1 style={heroTitle}>Lo que dice la Ley</h1>
         </div>
       </div>
 
-      {/* Cuerpo de texto */}
+      
       <div style={textContainer}>
         <p style={mainParagraph}>
           En concordancia con la Ley Nº 27942 de Prevención y Sanción del Hostigamiento Sexual, 
@@ -23,7 +23,7 @@ export default function Leyes() {
           denunciado y de testigos, así como pruebas (mensajes, correos, videos, etc.).
         </p>
 
-        {/* Cápsula Naranja */}
+        
         <div style={alertCapsule}>
           Si el empleador no investiga o no sanciona, puede ser 
           sancionado por la autoridad de trabajo (SUNAFIL) con 
@@ -34,7 +34,7 @@ export default function Leyes() {
   );
 }
 
-/* --- Estilos --- */
+
 
 const container = {
   fontFamily: "Arial, sans-serif",
@@ -87,10 +87,10 @@ const mainParagraph = {
 };
 
 const alertCapsule = {
-  backgroundColor: "#FF7A33", // Naranja brillante
+  backgroundColor: "#FF7A33",
   color: "black",
   padding: "30px 50px",
-  borderRadius: "100px", // Hace la forma de cápsula
+  borderRadius: "100px",
   textAlign: "center",
   fontSize: "17px",
   fontWeight: "500",

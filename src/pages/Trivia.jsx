@@ -4,52 +4,52 @@ const preguntas = [
   {
     pregunta: "¿Los mensajes de tu jefe fuera del horario laboral comentando tu apariencia constituyen hostigamiento sexual laboral?",
     opciones: ["A) Sí, siempre", "B) No, porque es fuera del trabajo", "C) Solo si se repiten varias veces"],
-    correcta: 0 // A
+    correcta: 0
   },
   {
     pregunta: "Si tu jefe te asigna tareas difíciles porque no respondiste sus mensajes personales, ¿eso forma parte del hostigamiento?",
     opciones: ["A) No, es una decisión laboral normal", "B) Sí, es una represalia y agrava el hostigamiento", "C) Solo si lo hace más de una vez"],
-    correcta: 1 // B
+    correcta: 1
   },
   {
     pregunta: "Un compañero manda memes con contenido sexual al grupo del trabajo. ¿Es hostigamiento aunque diga que es un chiste?",
     opciones: ["A) No, si era una broma no cuenta", "B) Depende de si alguien se queja", "C) Sí, el contenido sexual no deseado siempre está tipificado"],
-    correcta: 2 // C
+    correcta: 2 
   },
   {
     pregunta: "Tu compañera te dice que los memes le incomodan y él responde 'no seas tan sensible'. ¿Eso es parte del hostigamiento?",
     opciones: ["A) No, solo es una opinión", "B) Sí, invalidar la incomodidad de la víctima refuerza el hostigamiento", "C) Depende del tipo de meme"],
-    correcta: 1 // B
+    correcta: 1 
   },
   {
     pregunta: "Tu supervisor abraza a todas sus colaboradoras al llegar. A algunas no les molesta pero a otras sí. ¿Es hostigamiento?",
     opciones: ["A) No, porque lo hace con todas por igual", "B) Solo si alguien se queja formalmente", "C) Sí, el contacto físico no solicitado puede ser hostigamiento"],
-    correcta: 2 // C
+    correcta: 2 
   },
   {
     pregunta: "Nadie ha dicho nada sobre los abrazos por miedo a represalias. ¿El silencio significa que no hay hostigamiento?",
     opciones: ["A) Sí, si nadie se queja no hay problema", "B) No, el silencio por miedo no es consentimiento", "C) Depende de cuánto tiempo lleva pasando"],
-    correcta: 1 // B
+    correcta: 1 
   },
   {
     pregunta: "En una reunión el gerente le dice a María 'con esa sonrisa consigues cualquier cliente'. ¿Es hostigamiento?",
     opciones: ["A) No, es un cumplido profesional", "B) Sí, reducir el valor profesional al físico es una conducta tipificada", "C) Solo si María se siente mal"],
-    correcta: 1 // B
+    correcta: 1 
   },
   {
     pregunta: "¿El hecho de que el comentario sea en público frente a colegas lo hace menos grave?",
     opciones: ["A) Sí, en público no puede ser hostigamiento", "B) No cambia nada, el hostigamiento ocurre en público o en privado", "C) Depende de la reacción de los colegas"],
-    correcta: 1 // B
+    correcta: 1
   },
   {
     pregunta: "Jorge le da palmadas en el hombro a Luis como gesto de amistad y a Luis no le molesta. ¿Es hostigamiento?",
     opciones: ["A) Sí, cualquier contacto físico es hostigamiento", "B) No, el contacto aceptado entre pares sin connotación sexual no lo es", "C) Depende de la frecuencia"],
-    correcta: 1 // B
+    correcta: 1 
   },
   {
     pregunta: "Luis le dice a Jorge que ya no quiere ese contacto pero Jorge continúa. ¿Cambia la situación?",
     opciones: ["A) No, si antes era aceptado no puede cambiar", "B) Solo cambia si hay testigos", "C) Sí, ignorar el límite expresado puede constituir hostigamiento"],
-    correcta: 2 // C
+    correcta: 2
   }
 ];
 
@@ -106,7 +106,7 @@ export default function Trivia() {
   );
 }
 
-/* --- Estilos con Espaciado y Cápsulas --- */
+
 
 const container = {
   fontFamily: "Arial, sans-serif",
@@ -152,22 +152,22 @@ const optionsContainer = {
   gap: "15px"
 };
 
-// BOTÓN ESTILO CÁPSULA (Rellenar denuncia / Opciones)
+
 const capsuleBtn = {
   width: "100%",
   padding: "18px 25px",
   backgroundColor: "white",
   border: "1px solid #707070",
-  borderRadius: "35px", // Cápsula total
+  borderRadius: "35px",
   cursor: "pointer",
   fontSize: "16px",
   color: "#333",
-  textAlign: "left", // Alineado a la izquierda para mejor lectura de opciones largas
+  textAlign: "left",
   transition: "all 0.2s ease",
   fontWeight: "500"
 };
 
-/* Estilos de pantalla final */
+
 const finalTitle = { fontSize: "30px", marginBottom: "20px", fontFamily: "Georgia, serif" };
 const scoreCircle = {
   margin: "30px auto",
